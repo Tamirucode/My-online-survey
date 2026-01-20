@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--<form id="survey-form"> -->
+    <form action="https://formspree.io/f/xkoobzpk" method = 'POST' >
+    
+    
+  <h2>Customer Feedback Survey</h2>
+  <input type="hidden" name="_next" value="https://mywebsite/thanks.html">
+  <label> tam_egu@yahoo.com(so I can reply):</label>
+      <input type="email" name="email"  required>
+
+  <div class="question-group">
+    <p>1. How satisfied are you with our service?</p>
+    
+    <label>
+      <input type="radio" name="satisfaction" value="excellent" required> Excellent
+    </label><br>
+    
+    <label>
+      <input type="radio" name="satisfaction" value="good" required> Good
+    </label><br>
+    
+    <label>
+      <input type="radio" name="satisfaction" value="poor" required> Poor
+    </label><br>
+    <p>2. Which features do you use most?(select all that apply)</p>
+    <label>
+      <input type="checkbox" name="features" value="speed"> Fast Performance
+    </label><br>
+    
+    <label>
+      <input type="checkbox" name="features" value="UI"> User Interface
+    </label><br>
+    
+    <label>
+      <input type="checkbox" name="features" value="Customer Support"required > Customer Support
+    </label><br>
+    <label>
+      <input type="checkbox" name="features" value="Price" > Pricing
+    </label>
+    
+  </div>
+
+  <button type="submit">Submit Survey</
+
+button>
+</form>
+
+<script src="script.js"></script>
+
+</html>
